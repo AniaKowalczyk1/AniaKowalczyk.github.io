@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio - Anna Kowalczyk</title>
+  <style>
+    :root {
+      --main-color: #7b9acc;
+      --text-color: #2c3e50;
+      --background-color: #f5f5f5;
+      --section-bg: #ffffff;
+      --hover-color: #5899c5;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: var(--background-color);
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: var(--main-color);
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin: 0.5rem 0 0;
+      font-size: 1.1rem;
+    }
+
+    header a {
+      color: #fff;
+      text-decoration: underline;
+      font-weight: 600;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+
+    section {
+      background-color: var(--section-bg);
+      margin: 1rem 0;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    section:hover {
+      transform: scale(1.01);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    h2 {
+      border-bottom: 2px solid var(--main-color);
+      padding-bottom: 0.5rem;
+      font-size: 1.5rem;
+      margin-top: 0;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li::before {
+      content: "✔️ ";
+      margin-right: 0.5rem;
+    }
+
+    a {
+      color: var(--main-color);
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: var(--hover-color);
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #888;
+      margin: 2rem 0 1rem;
+    }
+
+    .button-cv {
+      display: inline-block;
+      background-color: var(--main-color);
+      color: #fff;
+      padding: 0.7rem 1.2rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      margin: 1rem 0;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .button-cv:hover {
+      background-color: var(--hover-color);
+      transform: scale(1.05);
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Anna Kowalczyk</h1>
+    <p>📧 <a href="mailto:ania.kowalczyk@autograf.pl">ania.kowalczyk@autograf.pl</a></p>
+    <a href="https://github.com/AniaKowalczyk1?tab=repositories" target="_blank" class="button-cv">💻 Mój GitHub</a>
+  </header>
+
+  <main>
+    <section>
+      <h2>🎓 Wykształcenie</h2>
+      <ul>
+        <li>2009–2016 – PSP Nr 4 im. św. Kazimierza Jagiellończyka w Radomiu</li>
+        <li>2016–2019 – PG Nr 13 z Oddziałami Dwujęzycznymi im. Polskich Noblistów</li>
+        <li>2019–2023 – ZST im. Tadeusza Kościuszki w Radomiu</li>
+        <li>2023–obecnie – Politechnika Krakowska</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>💼 Doświadczenie zawodowe</h2>
+      <ul>
+        <li>2019 – Fundacja „Arka” – wolontariat</li>
+        <li>2021 – Praktyki w MASTERDEV</li>
+        <li>2021 – Praktyki w Ajmer (WordPress)</li>
+        <li>2023 – Wolontariat mikołajkowy (PK)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🛠️ Kwalifikacje zawodowe</h2>
+      <ul>
+        <li>INF.02 – Administracja systemów i sieci komputerowych</li>
+        <li>INF.03 – Tworzenie stron, aplikacji i baz danych</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>💡 Umiejętności specjalistyczne</h2>
+      <ul>
+        <li>Angielski B2/C1</li>
+        <li>MS Office</li>
+        <li>HTML, CSS, JS, PHP</li>
+        <li>C++, Java</li>
+        <li>Python (podstawy)</li>
+        <li>VHDL (podstawy)</li>
+        <li>mySQL, msSQL </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🧠 Umiejętności miękkie</h2>
+      <ul>
+        <li>Chęć do nauki i samorozwoju</li>
+        <li>Gospodarowanie czasem, dyspozycyjność</li>
+        <li>Motywacja do pracy</li>
+        <li>Logiczne myślenie</li>
+        <li>Praca w zespole i samodzielnie</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🎨 Zainteresowania</h2>
+      <ul>
+        <li>Informatyka, tworzenie stron www, programowanie</li>
+        <li>Gra na gitarze i ukulele</li>
+        <li>Sztuki plastyczne, grafika warsztatowa</li>
+      </ul>
+    </section>
+
+   
+  </main>
+
+  <div class="footer">
+    &copy; 2025 Anna Kowalczyk | Portfolio programistyczne
+  </div>
+</body>
+</html>
